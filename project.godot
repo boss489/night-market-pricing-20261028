@@ -1,0 +1,22 @@
+config_version=5
+
+[application]
+config/name="야시장 가격표"
+run/main_scene="res://main.tscn"
+config/description="A seven-night market pricing game"
+
+[display]
+window/size/viewport_width=960
+window/size/viewport_height=760
+window/stretch/mode="disabled"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+
+[gui]
+theme/default_font="res://assets/NotoSansKR.ttf"
+theme/default_font_size=19
